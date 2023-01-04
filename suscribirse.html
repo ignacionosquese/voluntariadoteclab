@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscribirse</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    
+<h1 style="text-align: center;">Suscribite a Voces del Pilar</h1>
+<h3 style="margin-top: 10px; text-align: center;">Recibi el newsletter diario con las noticias más importantes de Pilar y nacionales</h3>
+<h3 style="margin-top: 10px; text-align: center;">Accedé a tu diario personalizado con tus noticias favoriatas</h3>
+<br><br>
+
+<h5 class="text-danger" style="text-align: center;" id="suscripcionExitosa"></h5>
+<br>
+
+<form action="get">
+      <div class="d-flex justify-content-center">
+        <input type="text" class="form-control" placeholder="Nombre" name="nombre" id="nombre" style="width: 400px;">
+      </div>
+      <div class="d-flex justify-content-center" style="margin-top: 20px;">
+        <input type="text" class="form-control" placeholder="Apellido" name="apellido" id="apellido" style="width: 400px;">
+      </div>
+      <div class="d-flex justify-content-center" style="margin-top: 20px;">
+        <input type="email" class="form-control" placeholder="Mail" name="mail" id="mail" style="width: 400px;">
+      </div>
+      <div class="d-flex justify-content-center" style="margin-top: 20px;">
+        <input type="password" class="form-control" placeholder="Contraseña" name="password" id="password" style="width: 400px;">
+      </div>
+      <div class="d-flex justify-content-center">
+        <button type="button" class=" col-md-4 btn btn-primary bg-info" style="margin-top: 20px;" id="botonSuscripcion">Suscribite</button>
+      </div>
+  </form>
+
+
+  <h5 style="text-align: center; margin-top: 20px;">Decinos cuales son los temas que te interesan</h5><br><br><br>
+
+  <div class="d-flex justify-content-center">
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check1" name="checkbox" value="politicaNacional">
+        <label class="form-check-label">Política Nacional  </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check2" name="checkbox" value="futbolLocal">
+        <label class="form-check-label">Fútbol Local  </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check3" name="checkbox" value="seriesNacionales">
+        <label class="form-check-label">Series y TV Nacionales  </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check4" name="checkbox" value="actualidadPartido">
+        <label class="form-check-label">Actualidad del Partido  </label>
+      </div>
+  
+    </div>
+
+    <div class="d-flex justify-content-center" style="margin-top: 15px;">
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check5" name="checkbox" value="politicaInternacional">
+        <label class="form-check-label">Política Internacional  </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check6" name="checkbox" value="futbolInternacional">
+        <label class="form-check-label">Fútbol Internacional  </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check7" name="checkbox" value="seriesInternacionales">
+        <label class="form-check-label">Series y TV Internacionales  </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check8" name="checkbox" value="anunciosPartido">
+        <label class="form-check-label">Anuncios del Partido  </label>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center" style="margin-top: 15px;">
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check9" name="checkbox" value="politicaProvincial">
+        <label class="form-check-label">Política Provincial  </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check10" name="checkbox" value="polideportivo">
+        <label class="form-check-label">Polideportivo  </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check11" name="checkbox" value="rumoresEspectaculo">
+        <label class="form-check-label">Rumores del Espectáculo  </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="check12" name="checkbox" value="politicaPartido">
+        <label class="form-check-label">Política del Partido</label>
+      </div>
+    </div>
+
+  
+
+
+  <!--<style> 
+
+    body{
+        background-image: url(./pilar2.jpg);
+        background-size: cover;
+        
+    }
+    
+    </style>-->
+
+
+
+
+
+
+
+
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./suscribirse.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>

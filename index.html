@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voces de Pilar</title>
+    <!--<link rel="stylesheet" href="./css/bootstrap.min.css">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-info">
+    <div class="container-fluid">
+        <a class="navbar-brand"><img src="./lpl.png" alt="Avatar Logo" style="height: 50px; width:auto"></a>
+        <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown">Nuestras Secciones</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Política</a></li>
+              <li><a class="dropdown-item" href="#">Deportes</a></li>
+              <li><a class="dropdown-item" href="#">Espectáculos</a></li>
+              <li><a class="dropdown-item" href="#">El partido</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="suscribirse.html">Suscribirse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="registarse.html">Log in</a>
+          </li>
+          <li>
+            <a class="text-light" id="bienvenido"></a>
+          </li>
+        </ul>
+        <form class="d-flex" style="padding-left: 50%; @media (max-width: 991px) {padding-left: 0px;};">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+    </div>
+    </nav>
+    </header>
+    <main>
+
+    <div class="container-fluid bg-light text-center"> <h3 class="text-info" id="pantallaClima">Bienvenido a Voces de Pilar</h3> <img src="" id="icono">
+    </div>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+      
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="height: 30rem;">
+            <img src="./partidotapa.jpg" alt="Pilar" class="d-block w-100">
+            <div class="carousel-caption">
+            <h4 class="text-end text-light" style="height: 20rem;">En Voces de Pilar siempre encontras la<br> mejor información del partido de Pilar</h4>
+            <a href="Untitled-2.html" class="btn btn-primary" >Leer más</a>
+              </div>
+          </div>
+          <div class="carousel-item" style="height: 30rem;">
+            <img src="./politicatapa.jpg" alt="Nacional" class="d-block w-100">
+            <div class="carousel-caption">
+            <h4 class="text-end text-light" style="height: 20rem;">En Voces de Pilar también tenemos la<br> información de la actualidad nacional</h4>
+            <a href="Untitled-2.html" class="btn btn-primary" >Leer más</a>
+            </div>
+          </div>
+          <div class="carousel-item" style="height: 30rem;">
+            <img src="./deportetapa.jpg" alt="Deportes" class="d-block w-100">
+            <div class="carousel-caption">
+            <h4 class="text-end text-light" style="height: 20rem;">En Voces de Pilar también tenemos toda<br>la actualidad en deportes y espectáculos</h4>
+            <a href="Untitled-2.html" class="btn btn-primary" >Leer más</a>      
+          </div>
+          </div>
+        </div>
+      
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+     
+      <div class="row">
+
+      <div class="card-group mt-2 col-md-10">
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="politica1.jpg" alt="Card image" style="width:100%">
+            <div class="card-body"> 
+              <span class="badge bg-warning text-dark">Politica</span>
+              <span class="badge bg-info text-light">El Partido</span>
+              <h3 class="card-title">El ministro y el gobernador anuncian obras para Pilar</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+            </div>
+          
+      
+          <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="politica2.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark">Politica</span>
+              <span class="badge bg-info text-light">Economia</span>
+              <h3 class="card-title">Segui la cotizacion del dolar hoy</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+      
+          <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="politica3.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <span class="badge bg-secondary text-light"> Politica</span>
+              <span class="badge bg-danger text-light">Nacional</span>
+              <h3 class="card-title">Como estan las encuestas presidenciales 2023</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-2 bg-success"> <img src="publicidad.jpg" style="height: 100%; width: 100%;"> </div>
+      </div>
+
+      <div class="card-group mt-2">
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="deportes1.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark">Deportes</span>
+              <span class="badge bg-info text-light">Futbol local</span>
+              <h3 class="card-title">Todos los resultados de la fecha de la liga</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+      
+          <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="deportes2.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark">Deportes</span>
+              <span class="badge bg-info text-light">Futbol Internacional</span>
+              <h3 class="card-title">Todas las novedades del mundial Qatar 2022</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+      
+          <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="deportes3.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <span class="badge bg-secondary text-light"> Deportes</span>
+              <span class="badge bg-danger text-light">Polideportivo</span>
+              <h3 class="card-title">Ya se juega la triple corona del mejor polo del mundo</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+          </div>
+          </div>
+      
+          <div class="card-group mt-2">
+            <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="espectaculos1.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <span class="badge bg-warning text-dark">Espectaculos</span>
+                  <span class="badge bg-info text-light">Series y TV Internacional</span>
+                  <h3 class="card-title">Conoce a los argentinos que triunfan en ficciones extranjeras</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <a href="#" class="btn btn-primary">Leer más</a>
+                </div>
+              </div>
+          
+              <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="espectaculos2.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <span class="badge bg-warning text-dark">Esspectaculos</span>
+                  <span class="badge bg-info text-light">Rumores</span>
+                  <h3 class="card-title">Todos los rumores de romances de las figuras del espectaculo</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <a href="#" class="btn btn-primary">Leer más</a>
+                </div>
+              </div>
+          
+              <div class="card" style="width: 300px;">
+                <img class="card-img-top" src="espectaculos3.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <span class="badge bg-secondary text-light"> Espectaculos</span>
+                  <span class="badge bg-danger text-light">Series y TV nacional</span>
+                  <h3 class="card-title">Todos los ratings de la television nacional</h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <a href="#" class="btn btn-primary">Leer más</a>
+                </div>
+              </div>
+              </div>
+
+              <nav class="navbar navbar-expand-lg">
+              <div class="container-lg mt-10">
+                <a class="nav-link text-primary">Inicio</a>
+                <a class="nav-link text-primary">Siguiente</a>
+                <a class="nav-link text-primary">Anterior</a>
+              </div>
+              </nav>
+    </main>
+
+    <footer>
+
+      <nav class="navbar navbar-expand-sm justify-content-center mt-3 bg-info">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="suscribirse.html">Suscribirse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="registarse.html">Registrarse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Contactanos</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="d-flex justify-content-center bg-info">
+        <a href="https://wa.me/+541165008848">
+          <img src="./logowhatsapp.png" alt="124034" style="width:42px;height:42px;">
+        </a>
+        <a href="https://facebook.com">
+          <img src="./logodefacebook.jpg" alt="124034" style="width:42px;height:42p;">
+        </a>
+        <a href="https://instagram.com">
+          <img src="./logoinstagram.webp" alt="124034" style="width:42px;height:42px;">
+        </a>
+      </div> 
+      <p class=" container-fluid text-light bg-info" style="text-align: center;">Contenido Voces del Pilar</p>   
+    </footer>
+
+
+    <style>
+      a:hover{
+        text-decoration: underline;
+      }
+      </style>
+    
+
+
+
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
+<script src="./prueba.js"></script>
+</body>
+</html>
